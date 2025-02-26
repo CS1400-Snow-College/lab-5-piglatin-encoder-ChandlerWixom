@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab-5-piglatin-encoder-ChandlerWixom", "lab-5-piglatin-encoder-ChandlerWixom.csproj", "{C3331CE1-0FF3-48A7-D718-E8D0C00FA546}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3331CE1-0FF3-48A7-D718-E8D0C00FA546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3331CE1-0FF3-48A7-D718-E8D0C00FA546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3331CE1-0FF3-48A7-D718-E8D0C00FA546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3331CE1-0FF3-48A7-D718-E8D0C00FA546}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7473FF70-2847-4D4A-AAA6-CEE5F24CBBEF}
+	EndGlobalSection
+EndGlobal

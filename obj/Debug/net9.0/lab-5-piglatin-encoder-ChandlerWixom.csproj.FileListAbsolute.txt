@@ -1,0 +1,15 @@
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\bin\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.exe
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\bin\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.deps.json
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\bin\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.runtimeconfig.json
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\bin\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.dll
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\bin\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.pdb
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\obj\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\obj\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.AssemblyInfoInputs.cache
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\obj\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.AssemblyInfo.cs
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\obj\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.csproj.CoreCompileInputs.cache
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\obj\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.sourcelink.json
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\obj\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.dll
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\obj\Debug\net9.0\refint\lab-5-piglatin-encoder-ChandlerWixom.dll
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\obj\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.pdb
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\obj\Debug\net9.0\lab-5-piglatin-encoder-ChandlerWixom.genruntimeconfig.cache
+C:\Users\Frost\my-code-dir\lab-5-piglatin-encoder-ChandlerWixom\obj\Debug\net9.0\ref\lab-5-piglatin-encoder-ChandlerWixom.dll

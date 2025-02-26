@@ -8,7 +8,7 @@ Console.WriteLine("This program will convert anything you type into Piglatin and
 Console.Write("Please enter your message: ");
 
 string userMessage = Console.ReadLine();
-Console.Write("In pig latin that's:");
+Console.Write("In pig latin that's: ");
 string[] messageSplit = userMessage.Split(' ');
 string vowels = "aeiou";
 string punctuation = ",./:!;";
@@ -54,7 +54,20 @@ for (int i = 0; i < messageSplit.Length; i++)
     Console.Write(wordPunctuation + " ");
    
 }
+Console.Write("\nWe can encrypt that as: ");
+int offset = 5;
 
+for (int i = 0; i < messageSplit.Length; i++)
+{
+    string tempWord = "";
+    for (int j = 0; j <messageSplit[i].Length; j++)
+    {
+        char temp = messageSplit[i][j];
+        char tempWrite = (char)(int)(temp + 5);
+        tempWord = tempWord + tempWrite;
+    }
+    Console.Write(tempWord + " ");
+}
 
 
 // for (int i = 0; i < messageSplit.Length; i++)

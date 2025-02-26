@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-5-piglatin-encoder-ChandlerWixom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc2d2a142096a0be9b369b4a3178f19bb88ee84c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21f27dd9be0b036941c539beb23c2132d80101a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-5-piglatin-encoder-ChandlerWixom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-5-piglatin-encoder-ChandlerWixom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

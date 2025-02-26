@@ -8,19 +8,26 @@ Console.WriteLine("This program will convert anything you type into Piglatin and
 Console.Write("Please enter your message: ");
 
 string userMessage = Console.ReadLine();
+Console.Write("In pig latin that's:");
 string[] messageSplit = userMessage.Split(' ');
 string vowels = "aeiou";
+string punctuation = ",./:!;";
 
 for (int i = 0; i < messageSplit.Length; i++)
 {
    string end = "";
    string start = "";
+   string wordPunctuation = "";
    bool wasVowel = false;
    bool startVowel = false;
     for (int j = 0; j < messageSplit[i].Length; j++)
     {
-        
-        if (!wasVowel && !vowels.Contains(messageSplit[i][j]))
+        if (punctuation.Contains(messageSplit[i][j]))
+        {
+            wordPunctuation = wordPunctuation + messageSplit[i][j];
+            break;
+        }
+        else if (!wasVowel && !vowels.Contains(messageSplit[i][j]))
         {
             end = end + messageSplit[i][j];
         }
@@ -40,9 +47,11 @@ for (int i = 0; i < messageSplit.Length; i++)
     }
     Console.Write(start);
     if (startVowel)
-    Console.WriteLine(end + "way");
+    Console.Write(end + "way");
     else
-     Console.WriteLine(end + "ay ");
+     Console.Write(end + "ay");
+    
+    Console.Write(wordPunctuation + " ");
    
 }
 

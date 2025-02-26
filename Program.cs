@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Chandler Wixom, 2/26/2025, Lab 5 Piglatin / Encoder 
+Console.WriteLine("This program will convert anything you type into Piglatin and encrypt it aswell");
+

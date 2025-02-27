@@ -15,11 +15,11 @@ string punctuation = ",./:!;";
 
 for (int i = 0; i < messageSplit.Length; i++)
 {
-   string end = "";
-   string start = "";
-   string wordPunctuation = "";
-   bool wasVowel = false;
-   bool startVowel = false;
+    string end = "";
+    string start = "";
+    string wordPunctuation = "";
+    bool wasVowel = false;
+    bool startVowel = false;
     for (int j = 0; j < messageSplit[i].Length; j++)
     {
         if (punctuation.Contains(messageSplit[i][j]))
@@ -31,7 +31,7 @@ for (int i = 0; i < messageSplit.Length; i++)
         {
             end = end + messageSplit[i][j];
         }
-        else 
+        else
         {
             wasVowel = true;
             if (j == 0)
@@ -43,28 +43,33 @@ for (int i = 0; i < messageSplit.Length; i++)
         {
             start = start + messageSplit[i][j];
         }
-        
+
     }
     Console.Write(start);
     if (startVowel)
-    Console.Write(end + "way");
+        Console.Write(end + "way");
     else
-     Console.Write(end + "ay");
-    
+        Console.Write(end + "ay");
+
     Console.Write(wordPunctuation + " ");
-   
+
 }
 Console.Write("\nWe can encrypt that as: ");
-int offset = 5;
+Random rand = new Random();
+int offset = rand.Next(1, 26);
 
 for (int i = 0; i < messageSplit.Length; i++)
 {
     string tempWord = "";
-    for (int j = 0; j <messageSplit[i].Length; j++)
+    for (int j = 0; j < messageSplit[i].Length; j++)
     {
-        char temp = messageSplit[i][j];
-        char tempWrite = (char)(int)(temp + 5);
-        tempWord = tempWord + tempWrite;
+        int temp = messageSplit[i][j] + 1;  // rounds over if its past z
+
+        temp = ((temp - 97) % 26) + 97;
+
+        tempWord = tempWord + (char)temp;
     }
     Console.Write(tempWord + " ");
 }
+
+
